@@ -54,6 +54,16 @@ const router = createRouter({
             name: "ExoEventModifier",
             component: () => import("../views/exos/ExoEventModifier.vue")
         },
+        {
+            path: "/LessonTwoWayBinding",
+            name: "LessonTwoWayBinding",
+            component: () => import("../views/lesson/LessonTwoWayBinding.vue")
+        },
+        {
+            path: "/TwoWayBindingComp",
+            name: "TwoWayBindingComp",
+            component: () => import("../views/exos/TwoWayBindingComp.vue")
+        },
 
     ]
 });

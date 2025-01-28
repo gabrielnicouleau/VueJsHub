@@ -16,6 +16,7 @@
                         <ul class="dropdown-menu dropdown-menu-dark">
                             <router-link class="nav-link active" aria-current="page" to="/LessonTextInterpolation">Interpolation</router-link>
                             <router-link class="nav-link active" aria-current="page" to="/LessonAttributeBinding">DataBinding</router-link>
+                            <router-link class="nav-link active" aria-current="page" to="/LessonTwoWayBinding">TwoWayBinding</router-link>
                         </ul>
                     </li>
 
@@ -29,6 +30,7 @@
                             <router-link class="nav-link active" aria-current="page" to="/ExoDirectiveVon">EventBinding</router-link>
                             <router-link class="nav-link active" aria-current="page" to="/ExoDirectiveVon2">EventBinding2</router-link>
                             <router-link class="nav-link active" aria-current="page" to="/ExoEventModifier">EventModifier</router-link>
+                            <router-link class="nav-link active" aria-current="page" to="/TwoWayBindingComp">TwoWayBinding</router-link>
                         </ul>
                     </li>
 
