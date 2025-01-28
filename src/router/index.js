@@ -60,9 +60,24 @@ const router = createRouter({
             component: () => import("../views/lesson/LessonTwoWayBinding.vue")
         },
         {
-            path: "/TwoWayBindingComp",
-            name: "TwoWayBindingComp",
-            component: () => import("../views/exos/TwoWayBindingComp.vue")
+            path: "/ComputedMod",
+            name: "ComputedMod",
+            component: () => import("../views/exos/ComputedMod.vue")
+        },
+        {
+            path: "/LessonWatchers",
+            name: "LessonWatchers",
+            component: () => import("../views/lesson/LessonWatchers.vue")
+        },
+        {
+            path: "/Reactivite",
+            name: "Reactivite",
+            component: () => import("../views/tp/Reactivite.vue")
+        },
+        {
+            path: "/StyleDynamique",
+            name: "StyleDynamique",
+            component: () => import("../views/exos/StyleDynamique.vue")
         },
 
     ]

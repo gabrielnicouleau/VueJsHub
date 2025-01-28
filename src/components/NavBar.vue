@@ -17,6 +17,7 @@
                             <router-link class="nav-link active" aria-current="page" to="/LessonTextInterpolation">Interpolation</router-link>
                             <router-link class="nav-link active" aria-current="page" to="/LessonAttributeBinding">DataBinding</router-link>
                             <router-link class="nav-link active" aria-current="page" to="/LessonTwoWayBinding">TwoWayBinding</router-link>
+                            <router-link class="nav-link active" aria-current="page" to="/LessonWatchers">Watchers</router-link>
                         </ul>
                     </li>
 
@@ -30,7 +31,8 @@
                             <router-link class="nav-link active" aria-current="page" to="/ExoDirectiveVon">EventBinding</router-link>
                             <router-link class="nav-link active" aria-current="page" to="/ExoDirectiveVon2">EventBinding2</router-link>
                             <router-link class="nav-link active" aria-current="page" to="/ExoEventModifier">EventModifier</router-link>
-                            <router-link class="nav-link active" aria-current="page" to="/TwoWayBindingComp">TwoWayBinding</router-link>
+                            <router-link class="nav-link active" aria-current="page" to="/ComputedMod">ComputedMod</router-link>
+                            <router-link class="nav-link active" aria-current="page" to="/StyleDynamique">Styles Dynamiques</router-link>
                         </ul>
                     </li>
 
@@ -40,6 +42,7 @@
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark">
                             <router-link class="nav-link active" aria-current="page" to="/DataBinding">DATABINDING</router-link>
+                            <router-link class="nav-link active" aria-current="page" to="/Reactivite">Réactivité</router-link>
                         </ul>
                     </li>
 
