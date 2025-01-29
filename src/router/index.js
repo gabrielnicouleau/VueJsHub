@@ -79,6 +79,21 @@ const router = createRouter({
             name: "StyleDynamique",
             component: () => import("../views/exos/StyleDynamique.vue")
         },
+        {
+            path: "/StyleDynamiqueClass",
+            name: "StyleDynamiqueClass",
+            component: () => import("../views/exos/StyleDynamiqueClass.vue")
+        },
+        {
+            path: "/DynamiqueStyling",
+            name: "DynamiqueStyling",
+            component: () => import("../views/tp/DynamiqueStyling.vue")
+        },
+        {
+            path: "/ConditionnalRendering",
+            name: "ConditionnalRendering",
+            component: () => import("../views/exos/ConditionnalRendering.vue")
+        },
 
     ]
 });

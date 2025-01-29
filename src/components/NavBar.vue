@@ -33,6 +33,8 @@
                             <router-link class="nav-link active" aria-current="page" to="/ExoEventModifier">EventModifier</router-link>
                             <router-link class="nav-link active" aria-current="page" to="/ComputedMod">ComputedMod</router-link>
                             <router-link class="nav-link active" aria-current="page" to="/StyleDynamique">Styles Dynamiques</router-link>
+                            <router-link class="nav-link active" aria-current="page" to="/StyleDynamiqueClass">Styles Dynamiques (class)</router-link>
+                            <router-link class="nav-link active" aria-current="page" to="/ConditionnalRendering">ConditionnalRendering</router-link>
                         </ul>
                     </li>
 
@@ -41,8 +43,9 @@
                             TP
                         </a>
                         <ul class="dropdown-menu dropdown-menu-dark">
-                            <router-link class="nav-link active" aria-current="page" to="/DataBinding">DATABINDING</router-link>
+                            <router-link class="nav-link active" aria-current="page" to="/DataBinding">DataBinding</router-link>
                             <router-link class="nav-link active" aria-current="page" to="/Reactivite">Réactivité</router-link>
+                            <router-link class="nav-link active" aria-current="page" to="/DynamiqueStyling">Dynamique Styling</router-link>
                         </ul>
                     </li>
 
