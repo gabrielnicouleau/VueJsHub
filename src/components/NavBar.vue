@@ -46,6 +46,7 @@
                             <router-link class="nav-link active" aria-current="page" to="/DataBinding">DataBinding</router-link>
                             <router-link class="nav-link active" aria-current="page" to="/Reactivite">Réactivité</router-link>
                             <router-link class="nav-link active" aria-current="page" to="/DynamiqueStyling">Dynamique Styling</router-link>
+                            <router-link class="nav-link active" aria-current="page" to="/JeuTourParTour">Jeu Tour par Tour</router-link>
                         </ul>
                     </li>
 

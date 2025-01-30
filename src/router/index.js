@@ -94,6 +94,11 @@ const router = createRouter({
             name: "ConditionnalRendering",
             component: () => import("../views/exos/ConditionnalRendering.vue")
         },
+        {
+            path: "/JeuTourParTour",
+            name: "JeuTourParTour",
+            component: () => import("../views/tp/JeuTourParTour.vue")
+        },
 
     ]
 });
