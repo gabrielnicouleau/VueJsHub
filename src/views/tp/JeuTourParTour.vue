@@ -11,6 +11,17 @@
 
     <div v-else>
       <div class="border p-3 rounded mb-3 bg-white">
+        <h5 class="mt-3 mb-2">Adversaire</h5>
+        <!-- Image de l'adversaire (GIF de base) -->
+        <img :src="gifAdversaire" alt="Adversaire" :class="['image-personnage', { 'attaque': adversaireActive }]">
+
+        <!-- Barre de vie de l'adversaire -->
+        <div class="barre-de-vie">
+          <div class="vie" :style="{ width: vieAdversaire + '%' }"></div>
+        </div>
+      </div>
+      
+      <div class="border p-3 rounded mb-3 bg-white">
         <h5 class="mt-3 mb-2">Joueur</h5>
         <!-- Image du joueur (GIF de base) -->
         <img :src="gifJoueur" alt="Joueur" :class="['image-personnage', { 'attaque': joueurActive }, { 'soin': joueurSoin }, { 'attaqueSpe': joueurRage }]">
@@ -21,16 +32,6 @@
         </div>
       </div>
 
-      <div class="border p-3 rounded mb-3 bg-white">
-        <h5 class="mt-3 mb-2">Adversaire</h5>
-        <!-- Image de l'adversaire (GIF de base) -->
-        <img :src="gifAdversaire" alt="Adversaire" :class="['image-personnage', { 'attaque': adversaireActive }]">
-
-        <!-- Barre de vie de l'adversaire -->
-        <div class="barre-de-vie">
-          <div class="vie" :style="{ width: vieAdversaire + '%' }"></div>
-        </div>
-      </div>
 
       <!-- Boutons d'action avec images -->
       <button @click="attaquerAdversaire" :disabled="actionEnCours" class="me-2 bg-primary bg-opacity-50">
